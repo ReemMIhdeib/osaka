@@ -1,0 +1,23 @@
+body{
+
+   font-family: "Open Sans", sans-serif;
+   --maincolor:#ff206e ;
+}
+.main__color{
+       color: var(--maincolor);
+}
+
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--maincolor);
+}
+.hero{
+    height: calc(100vh - 57px);
+    background-image:url(./../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hero h1{
+  font-size: 3rem;
+ font-weight: 800;
+}

@@ -21,3 +21,10 @@ body{
   font-size: 3rem;
  font-weight: 800;
 }
+
+.about{
+     background-image:url(./../img/light_dot.jpg);
+    
+    background-position: center;
+    background-repeat: repeat;
+}

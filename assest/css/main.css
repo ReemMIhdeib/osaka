@@ -2,6 +2,11 @@ body{
 
    font-family: "Open Sans", sans-serif;
    --maincolor:#ff206e ;
+     padding-top: 56px; 
+     height: 10000px;
+}
+.header nav{
+    height: 56px;
 }
 .main__color{
        color: var(--maincolor);
@@ -15,17 +20,18 @@ body{
 
 
 .hero{
-    height: calc(100vh - 57px);
+    height: calc(100vh - 56px);
     background-image:url(./../img/bg.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .hero h1{
   font-size: 3rem;
  font-weight: 800;
 }
 
-.about , .Portfolio {
+.about , .Portfolio  {
      background-image:url(./../img/light_dot.jpg);
     background-position: center;
     background-repeat: repeat;
@@ -40,7 +46,8 @@ border: none;
     border: none;
 }
 
-.client-rev{
+
+.Testimonials  .client-rev{
         border: 2px solid #f4f4f4;
       
 }
@@ -52,10 +59,7 @@ border: none;
     border-radius: 50%;
 
 }
-.carousel-inner,
-.carousel-item {
-  overflow: visible !important;
-}
+
 
 
 .Testimonials-img img{
@@ -73,6 +77,6 @@ border: none;
 .Testimonials   .carousel-indicators [data-bs-target]:focus{
       background-color: #000;
 }
-.client-rev:hover .Testimonials-img img {
+.Testimonials .client-rev:hover .Testimonials-img img {
 box-shadow: 0 8px 30px rgba(0, 0, 0, .3);
 }

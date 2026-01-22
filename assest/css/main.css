@@ -11,6 +11,9 @@ body{
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: var(--maincolor);
 }
+
+
+
 .hero{
     height: calc(100vh - 57px);
     background-image:url(./../img/bg.jpg);
@@ -22,9 +25,54 @@ body{
  font-weight: 800;
 }
 
-.about{
+.about , .Portfolio {
      background-image:url(./../img/light_dot.jpg);
-    
     background-position: center;
     background-repeat: repeat;
+}
+
+
+.Portfolio .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+color: var(--maincolor);
+border: none;
+}
+.Portfolio .nav-tabs .nav-link {
+    border: none;
+}
+
+.client-rev{
+        border: 2px solid #f4f4f4;
+      
+}
+
+.Testimonials   .carousel-indicators [data-bs-target]{
+    background-color: #D6D6D6;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+
+}
+.carousel-inner,
+.carousel-item {
+  overflow: visible !important;
+}
+
+
+.Testimonials-img img{
+    height: 80px;
+    width: 80px;
+    border: 2px  rgb(251, 251, 251) solid;
+    padding: 0px;
+   position: absolute;
+  top: -40px;   
+  left: 50%;
+  transform: translateX(-50%);
+  
+
+}
+.Testimonials   .carousel-indicators [data-bs-target]:focus{
+      background-color: #000;
+}
+.client-rev:hover .Testimonials-img img {
+box-shadow: 0 8px 30px rgba(0, 0, 0, .3);
 }
